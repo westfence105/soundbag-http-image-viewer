@@ -2,3 +2,4 @@
 build
 bin
 server_config.json
+server_data.sqlite

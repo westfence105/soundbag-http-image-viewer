@@ -7,8 +7,8 @@ BUILDDIR := build
 SBDIR    := soundbag-http-server
 SBBINDIR := $(SBDIR)/bin
 
-CFLAGS  += -Isrc/include -I$(SBDIR)/src/include -std=c++2a
-LDFLAGS += -lpthread
+CFLAGS  += -Isrc/include -I$(SBDIR)/src/include -std=c++2a -g
+LDFLAGS += -lsqlite3 -lpthread
 
 all: $(BUILDDIR) $(BINDIR) $(SBBINDIR)/libsoundbag-httpserver.a $(BINDIR)/server$(EXT)
 
