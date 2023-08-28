@@ -1,0 +1,3 @@
+[submodule "soundbag-http-server"]
+	path = soundbag-http-server
+	url = git@github.com:westfence105/soundbag-http-server.git
